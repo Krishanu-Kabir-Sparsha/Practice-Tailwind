@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Enhanced</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body class="bg-gray-100">
+
+    <!-- Header -->
+    <header>
+      <nav class="w-full h-[80px] bg-gradient-to-r from-gray-900 to-slate-800 shadow-lg">
+        <div class="flex items-center justify-between w-full h-full px-6">
+          <div class="text-3xl text-white font-bold cursor-pointer hover:scale-105 transform transition duration-500">
+            <h1>GameZone</h1>
+          </div>
+          <div class="flex gap-6 items-center text-lg text-white font-medium">
+            <a href="" class="hover:text-rose-400 transition duration-300">Home</a>
+            <a href="" class="hover:text-rose-400 transition duration-300">About</a>
+            <a href="" class="hover:text-rose-400 transition duration-300">Contact</a>
+            <button class="bg-rose-500 hover:bg-rose-600 px-4 py-2 rounded-lg transition-all duration-500 transform hover:scale-110">Login</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Hero Section -->
+      <section class="w-full h-screen bg-cover bg-center relative overflow-hidden" style="background-image: url(./assets/chess-1215079_1280.jpg);">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white animate-fade-in">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-5 animate-fade-up">Play With Anyone, Anywhere, Anytime</h1>
+          <p class="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto animate-fade-up delay-200">
+            Dive into the world of ultimate gaming with friends, family, or global players—your choice, your platform, your rules.
+          </p>
+          <div class="mt-8 animate-fade-up delay-400">
+            <button class="bg-rose-500 hover:bg-rose-600 px-6 py-3 text-2xl font-medium rounded-full transform hover:scale-105 transition-all duration-500">Explore the Game</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section class="bg-slate-900 p-12 sm:p-20">
+        <div class="grid sm:grid-cols-2 gap-8 items-center">
+          <div class="text-white">
+            <h6 class="text-rose-400 uppercase font-bold tracking-widest mb-2 animate-fade-up">Why Choose Us</h6>
+            <h2 class="text-3xl sm:text-4xl font-semibold leading-tight animate-fade-up delay-200">Gaming Redefined: Experience the Future of Play</h2>
+            <p class="mt-5 text-lg text-gray-400 leading-relaxed animate-fade-up delay-400">
+              Elevate your gaming journey with us—seamless integration across all devices, stunning graphics, and a community that thrives on competition. 
+              We don’t just play, we create experiences that last a lifetime.
+            </p>
+          </div>
+          <div class="animate-fade-in delay-600">
+            <img src="./assets/playstation-1845880_1280.jpg" alt="Gaming Console" class="rounded-lg shadow-lg transform hover:scale-105 transition-all duration-500">
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="p-12 sm:p-20 bg-gray-100">
+        <h2 class="text-3xl sm:text-4xl font-semibold text-center mb-8 text-gray-800">Key Features</h2>
+        <div class="grid sm:grid-cols-3 gap-8 text-center">
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-500 transform hover:scale-105">
+            <img src="./assets/1.jpg" alt="Feature 1" class="mx-auto w-16 mb-4">
+            <h3 class="text-2xl font-bold text-gray-700 mb-3">Cross-Platform Play</h3>
+            <p class="text-gray-500">Enjoy seamless gameplay on any device, whether it's a console, PC, or mobile.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-500 transform hover:scale-105">
+            <img src="./assets/2.jpg" alt="Feature 2" class="mx-auto w-16 mb-4">
+            <h3 class="text-2xl font-bold text-gray-700 mb-3">Customizable Avatars</h3>
+            <p class="text-gray-500">Create and personalize your in-game avatar to reflect your style and personality.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-500 transform hover:scale-105">
+            <img src="./assets/3.png" alt="Feature 3" class="mx-auto w-16 mb-4">
+            <h3 class="text-2xl font-bold text-gray-700 mb-3">Real-Time Multiplayer</h3>
+            <p class="text-gray-500">Engage in real-time multiplayer games with your friends and gamers around the world.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+<section class="bg-gray-900 p-12 sm:p-20">
+    <h2 class="text-3xl sm:text-4xl font-semibold text-center mb-8 text-white">What Our Players Say</h2>
+    <div class="grid sm:grid-cols-3 gap-8">
+      <div class="bg-slate-800 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500">
+        <p>"GameZone completely transformed how I play games. It’s incredible to be able to connect with friends anywhere, anytime."</p>
+        <h4 class="mt-4 font-bold text-rose-400">- Alex, Pro Gamer</h4>
+      </div>
+      <div class="bg-slate-800 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500">
+        <p>"The graphics, the speed, and the seamless multiplayer integration is unmatched. Highly recommend!"</p>
+        <h4 class="mt-4 font-bold text-rose-400">- Sarah, Casual Gamer</h4>
+      </div>
+      <div class="bg-slate-800 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500">
+        <p>"I can play from anywhere and still get the same high-quality gaming experience. GameZone is a game-changer!"</p>
+        <h4 class="mt-4 font-bold text-rose-400">- Jamie, Tech Enthusiast</h4>
+      </div>
+    </div>
+  </section>
+
+      <!-- Call to Action Section -->
+      <section class="p-12 sm:p-20 bg-gradient-to-r from-rose-400 to-rose-500 text-white text-center">
+        <h2 class="text-3xl sm:text-4xl font-semibold mb-5">Join the Ultimate Gaming Experience Today!</h2>
+        <p class="text-lg sm:text-xl mb-8">Sign up now and be part of the most exciting gaming community.</p>
+        <button class="bg-white text-rose-500 px-6 py-3 rounded-full font-medium text-xl hover:bg-gray-100 transition duration-500 transform hover:scale-105">
+          Get Started
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 p-6 text-white text-center">
+      <div class="flex justify-center gap-4 mb-4">
+        <a href="#" class="hover:text-rose-400 transition">Home</a>
+        <a href="#" class="hover:text-rose-400 transition">About</a>
+        <a href="#" class="hover:text-rose-400 transition">Contact</a>
+      </div>
+      <p class="text-sm">© 2024 GameZone. All rights reserved.</p>
+    </footer>
+
+  </body>
+
+  <!-- Tailwind CSS for Animations -->
+  <style>
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .animate-fade-up {
+      animation: fade-up 1s ease-in-out;
+    }
+    .animate-fade-in {
+      animation: fade-in 1.5s ease-in-out;
+    }
+  </style>
+</html>
